@@ -122,7 +122,7 @@ public class Activity2 extends AppCompatActivity {
         }
         // снимаем все ранее установленные отметки
         productsListView.clearChoices();
-        // очищаем массив выбраных объектов
+        // очищаем массив выбраных объектовdd
         selected_products.clear();
         productAdapter.notifyDataSetChanged();
     }
